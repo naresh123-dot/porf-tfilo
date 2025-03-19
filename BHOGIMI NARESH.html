@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naresh,frontend developer</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .sidebar{
+            background-color: grey;
+            width: 20vw;
+            height: 100vh;
+        }
+        .sidebar nav{
+            padding: 72px;
+        }
+        .sidebar nav li{
+            list-style-type: none;
+            font-size: 30px;
+            padding: 33px 0;
+        }
+        .sidebar nav li a{
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+        }
+        .sidebar nav li a:hover{
+            background-color:rgb(242, 59, 172);
+            color: aqua;
+        }
+        .main{
+            background-color: rgb(15, 9, 9);
+            width: 80vw;
+            font-style: italic;
+        }
+        .container{
+            display: flex;
+        }
+        .infocontainer{
+            background-color: rgb(15, 9, 9);
+            width: 80vw;
+            height: 45vh;
+            margin: 144px auto;
+            display: flex;
+            margin-left: 20px;
+            padding: 10px  20px 10px 20px;
+            color: azure;
+        
+        }
+       
+            
+            
+        
+        .devinfo{
+            display: flex;
+            
+            
+            justify-content: center;
+            flex-direction: column;
+        }
+        .hello{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .name{
+            font-size:60px ;
+            font-weight: bold;
+            color: brown;
+            animation: slideIn 2s ease-in-out infinite alternate;
+        }
+        .about{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-variant: calc(20,40,30);
+            font-optical-sizing: 30px;
+            font-weight: 400;
+            font-size: 50px;
+        }
+        .button button{
+            padding: 9px;
+            
+            border-radius: 22px;
+            color:white;
+            background-color:blue;
+            font-weight: bold;
+            font-size: 21px;
+            margin: 0 3px;
+            cursor: pointer;
+            text-decoration: none;
+
+        }
+        .button button:hover{
+            background-color: aqua;
+            color: black;
+        }
+        .button a{
+            text-decoration: none;
+            color: azure;
+        }
+        .pic{
+            size: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div  class="sidebar">
+             
+             <nav>
+                 <ul>
+                     <li><a href="#">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="project.html">PROJECTS</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+             </nav>
+             </div>
+    
+        <div class="main">
+             <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi a am</div>
+                    <div class="name">BHOGIMI NARESH</div>
+                    <div class="about">Frontend Developer,Java developer</div>
+                    
+                    <div class="more">i passinate and skilled frontend developer with a solid background<br>
+                        in building dynamic and responsitive and friendly websites and web applications .<br>with kee 
+                         eye for a desiging and deep understaind of web technology. </div><br><br>
+                   <div class="button">
+                        <button type="button"><a href="cv.html" download="cv">DOWNLODE CV</a></button>
+                        <button type="button"><a href="hire.html">Hire Me</a></button>
+                    </div>
+                    
+                </div>
+                
+
+             </div>
+             </div>
+    </div>
+</body>
+</html>
